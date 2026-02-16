@@ -1,9 +1,7 @@
-Cracking the “Privileged Cookies” Challenge
+Cracking the “Privileged Cookies” Challenge.
 
-A Deep Dive into Cookie Manipulation and Access Control Flaws
-
+A Deep Dive into Cookie Manipulation and Access Control Flaws.
 Web security isn't just about breaking things; it's about understanding why they fail. The “Privileged Cookies” challenge shows how weak authorization logic can create serious security issues such as privilege escalation.
-
 This blog explains what the challenge teaches, the key concepts, the tools needed, and what every cybersecurity learner should grasp to tackle similar scenarios.
 
 Challenge Overview (In Simple Terms)
@@ -12,9 +10,8 @@ The application, Star Bakery, stored a user's role in a browser cookie. By chang
 
 The vulnerability arose because the application relied on client-side data for authorization decisions.
 
-What You Must Learn Before Solving This Type of Challenge
-
-To effectively address this challenge, you need to understand:
+What You Must Learn Before Solving This Type of Challenge,To effectively address this challenge,
+you need to understand:
 
 1. HTTP and Web Basics
 
@@ -214,12 +211,12 @@ Attackers could:
 
 Many real-world breaches begin with small access control flaws.
 
-Learning Outcome Summary
+Learning Outcome Summary-
 
 This challenge strengthened the understanding of:
 
-- Client vs. Server trust boundaries
-- How cookies influence authorization
-- How privilege escalation occurs
-- Why validation must always happen server-side
-- How tools like Burp Suite reveal hidden weaknesses
+- Client vs. Server trust boundaries.
+- How cookies influence authorization.
+- How privilege escalation occurs.
+- Why validation must always happen server-side.
+- How tools like Burp Suite reveal hidden weaknesses.
